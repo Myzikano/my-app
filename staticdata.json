@@ -1,0 +1,64 @@
+{
+    "cells": [
+        {
+            "title": "Intro to React",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Basic Styling in CSS",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Adaptive Layout with CSS Grid",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Interactions and Animations",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "SVG Animation",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Components and Props",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "States and Events",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Styled Components",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Static Data with JSON",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "GraphQL with Contentful",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Publish to Netlify",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        },
+        {
+            "title": "Payment with Stripe Checkout",
+            "image":
+            "https://i.ibb.co/yRGxHv7/logo-react.png"
+        }
+    ]
+}
