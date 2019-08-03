@@ -12,7 +12,7 @@ const CellImage = styled.div`
     width: 60px;
     height: 60px;
     background: White;
-    border-radius: 10px;
+    border-radius: 0px;
     background-image: url(${props => props.image});
     background-size: 60px;
 `

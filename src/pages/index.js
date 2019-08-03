@@ -51,35 +51,35 @@ const IndexPage = () => (
       <div className="CardGroup">
         <Card 
           title="Business card"
-          text="10 sections"
+          text="DK"
           image={require('../images/BusinessCard.jpg')} />
         <Card 
           title="Web Design"
-          text="12 sections"
+          text="DK"
           image={require('../images/1-3.jpg')} />
         <Card 
           title="App Design"
-          text="5 sections"
+          text="DK"
           image={require('../images/app.png')} />
         <Card 
           title="Brand Design"
-          text="10 sections"
+          text="DK"
           image={require('../images/brand.jpg')} />
           <Card 
           title="Typography Design"
-          text="10 sections"
+          text="DK"
           image={require('../images/typography.png')} />
         <Card 
           title="Product Design"
-          text="12 sections"
+          text="DK"
           image={require('../images/product.jpg')} />
         <Card 
           title="Motion Design"
-          text="5 sections"
+          text="DK"
           image={require('../images/gif.gif')} />
         <Card 
           title="Consulting"
-          text="10 sections"
+          text="DK"
           image={require('../images/consulting.png')} />
       </div>
     </div>
