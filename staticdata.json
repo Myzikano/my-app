@@ -1,64 +1,64 @@
 {
     "cells": [
         {
-            "title": "Intro to React",
+            "title": "Employee pride and productivity",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/9WHq9PL/Asset-187.png"
         },
         {
-            "title": "Basic Styling in CSS",
+            "title": "Saves time",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/gFGYXQc/Asset-186.png"
         },
         {
-            "title": "Adaptive Layout with CSS Grid",
+            "title": "Saves money",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/wBf5Mr2/Asset-188.png"
         },
         {
-            "title": "Interactions and Animations",
+            "title": "High-quality visuals increase viewer interaction",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/wdhxHDn/Asset-189.png"
         },
         {
-            "title": "SVG Animation",
+            "title": "Graphic communication: it’s more than a trend",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/WK0t4Pn/Asset-190.png"
         },
         {
-            "title": "Components and Props",
+            "title": "Attract and keep customers interested",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/ThRW3rL/Asset-191.png"
         },
         {
-            "title": "States and Events",
+            "title": "Strengthens your brand",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/6b1b41Z/Asset-192.png"
         },
         {
-            "title": "Styled Components",
+            "title": "It Builds Trust",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/Qf5Q2zn/Asset-193.png"
         },
         {
-            "title": "Static Data with JSON",
+            "title": "It Makes People Remember You",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/3cD1YTR/Asset-194.png"
         },
         {
-            "title": "GraphQL with Contentful",
+            "title": "It Puts the Customer or User First",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/nsmxsQx/Asset-195.png"
         },
         {
-            "title": "Publish to Netlify",
+            "title": "It Makes Financial Sense",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/s1MFcQy/Asset-196.png"
         },
         {
-            "title": "Payment with Stripe Checkout",
+            "title": "It Doesn’t Have to Cost a Lot",
             "image":
-            "https://i.ibb.co/yRGxHv7/logo-react.png"
+            "https://i.ibb.co/pJbDf0T/Asset-197.png"
         }
     ]
 }

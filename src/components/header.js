@@ -26,16 +26,17 @@ class Header extends React.Component {
     }
   }
   
+
   render() {
     return (
       <div className={this.state.hasScrolled ? 
       'Header HeaderScrolled' : 'Header'}> 
         <div className="HeaderGroup">
-          <Link to="/"><img src={require('../images/logo-designcode.svg')} width="30" /></Link>
-          <Link to="/courses">Portfolio</Link>
-          <Link to="/downloads">About Me</Link>
-          <Link to="/workshops">Contacts</Link>
-          <Link to="/buy"><button>Hire Me</button></Link>
+          <Link to="/"><img src={require('../images/logo1.svg')} width="30" /></Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/about me">About Me</Link>
+          <Link to="/contacts">Contacts</Link>
+          <button><a href="mailto:myzikano@gmail.com">Hire Me</a></button>
         </div>
       </div>
     )

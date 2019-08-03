@@ -34,7 +34,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Dmitriy Kulikov<br /> Web+UI Designer</h1>
         <p>Effectiveness+creativity<br />I'm create awesome design with world-class design.</p>
-        <Link to="/page-2/">Watch the portfolio</Link>
+        <Link to="/portfolio/">Watch the portfolio</Link>
         <div className="Logos">
           <img src={require('../images/logo-sketch.png')} width="50" />
           <img src={require('../images/logo-figma.png')} width="50" />
@@ -58,22 +58,38 @@ const IndexPage = () => (
           text="12 sections"
           image={require('../images/1-3.jpg')} />
         <Card 
-          title="Brand Design"
+          title="App Design"
           text="5 sections"
-          image={require('../images/brand.jpg')} />
-        <Card 
-          title="ARKit 2"
-          text="10 sections"
           image={require('../images/app.png')} />
+        <Card 
+          title="Brand Design"
+          text="10 sections"
+          image={require('../images/brand.jpg')} />
+          <Card 
+          title="Typography Design"
+          text="10 sections"
+          image={require('../images/typography.png')} />
+        <Card 
+          title="Product Design"
+          text="12 sections"
+          image={require('../images/product.jpg')} />
+        <Card 
+          title="Motion Design"
+          text="5 sections"
+          image={require('../images/gif.gif')} />
+        <Card 
+          title="Consulting"
+          text="10 sections"
+          image={require('../images/consulting.png')} />
       </div>
     </div>
     <Section
-      image={require('../images/wallpaper2.jpg')}
-      logo={require('../images/logo-react.png')}
-      title="React for Designers"
-      text="Learn how to build a modern site using React and most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interaction,dynamic data with Contentful and deploying your site with Netlify"
+      image={require('../images/walpaper5.jpg')}
+      logo={require('../images/logo1.svg')}
+      title="DESIGN YOUR FUTURE"
+      text=" 'Most people make the mistake of thinking design is what it looks like. People think it’s this veneer – that the designers are handed this box and told, “Make it look good!” That’s not what we think design is. It’s not just what it looks like and feels like. Design is how it works.' Steve Jobs "
      />
-     <SectionCaption>12 sections - 6 hours</SectionCaption>
+     <SectionCaption>12 Ways Graphic Design Benefits Your Business</SectionCaption>
      <SectionCellGroup>
      {staticdata.cells.map(cell => (
        <Cell 
