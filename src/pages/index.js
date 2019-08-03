@@ -32,39 +32,39 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Learn to <br /> design and code React apps</h1>
-        <p>Complete courses about the best tools and design systems.       Prototype and build apps with React and Swift.</p>
-        <Link to="/page-2/">Watch the video</Link>
+        <h1>Dmitriy Kulikov<br /> Web+UI Designer</h1>
+        <p>Effectiveness+creativity<br />I'm create awesome design with world-class design.</p>
+        <Link to="/page-2/">Watch the portfolio</Link>
         <div className="Logos">
           <img src={require('../images/logo-sketch.png')} width="50" />
           <img src={require('../images/logo-figma.png')} width="50" />
-          <img src={require('../images/logo-studio.png')} width="50" />
-          <img src={require('../images/logo-framer.png')} width="50" />
           <img src={require('../images/logo-react.png')} width="50" />
+          <img src={require('../images/logo-photoshop.png')} width="50" />
+          <img src={require('../images/logo-illustrator.png')} width="50" />
           <img src={require('../images/logo-swift.png')} width="50" />
         </div>
         <Wave />
       </div>
     </div>
     <div className="Cards">
-      <h2>11 courses, more coming</h2>
+      <h2>Full spector of services</h2>
       <div className="CardGroup">
         <Card 
-          title="Design System"
+          title="Business card"
           text="10 sections"
-          image={require('../images/wallpaper.jpg')} />
+          image={require('../images/BusinessCard.jpg')} />
         <Card 
-          title="React for Designers"
+          title="Web Design"
           text="12 sections"
-          image={require('../images/wallpaper2.jpg')} />
+          image={require('../images/1-3.jpg')} />
         <Card 
-          title="Sound Design"
+          title="Brand Design"
           text="5 sections"
-          image={require('../images/wallpaper3.jpg')} />
+          image={require('../images/brand.jpg')} />
         <Card 
           title="ARKit 2"
           text="10 sections"
-          image={require('../images/wallpaper4.jpg')} />
+          image={require('../images/app.png')} />
       </div>
     </div>
     <Section
