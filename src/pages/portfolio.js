@@ -9,22 +9,12 @@ const PortfolioGroup = styled.div`
     grid-gap: 20px;
     text-align: center;
     font-size: 40;
-    media (max-width: 720px) {
-            width: 500px;
-            size: 500px;
-      }
 `
 const Portfolio = styled.div`
     padding: 0px 0;
     display: grid;
     grid-gap: 20px;
-
-    @media (max-width: 720px) {
-            width: 500px;
-            size: 500px;
-      }
 `
-      
 
 
 const portfolio = () => (
