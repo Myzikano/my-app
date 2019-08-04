@@ -1,11 +1,17 @@
 import React from 'react'
+import Link from 'gatsby-link'
+import styled from 'styled-components'
+
+const ContactsGroup = styled.div`
+text-align: center;
+`
 
 const NotFoundPage = () => (
-  <div>
-    <h1>404 NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    <img src={require('../images/404.png')} width="800" />
-  </div>
-)
+    <div>
+    <img src={require('../images/404.jpg')} width="1920" />
+    <ContactsGroup><Link to="/">Go back to the Homepage</Link></ContactsGroup>
+    </div>
+  )
 
-export default NotFoundPage
+ export default NotFoundPage
+

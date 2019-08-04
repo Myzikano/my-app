@@ -49,6 +49,10 @@ const SectionTitle = styled.h3`
 const SectionText = styled.p`
       color: white;
       font-size: 30px;
+
+      @media (max-width: 720px) {
+            font-size: 20px;
+      }
 `
 
 const WaveBottom = styled.div`
