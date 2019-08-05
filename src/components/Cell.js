@@ -7,7 +7,7 @@ const CellGroup = styled.div`
     grid-gap: 25px;
     align-items: center;
     @media (max-width: 720px) {
-            grid-template-columns: 30px auto;
+            grid-template-columns: 31px auto;
       }
 `
 
