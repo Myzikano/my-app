@@ -13,6 +13,9 @@ const Text = styled.p`
     color: #486791;
     max-weight: 500px;
     margin: 0 auto;
+    @media (max-width: 720px) {
+            text-align: center;
+      }
 `
 const Button = styled.button`
     z-index: 4;

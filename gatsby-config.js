@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Dmitriy Kulikov',
-    description: 'Complete courses about the best tools and design systems. Prototype and build apps with React and Swift. 60 hours of video content and resource materials. No coding experience required.',
-    keywords: 'react course, reactfor designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin'
+    description: 'Welcome to my portfolio site. You can watch my portfolio and hire me.',
+    keywords: 'design, react, illustration, sketch app, figma, web design, after effects, photoshop'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -8,7 +8,7 @@ text-align: center;
 
 const NotFoundPage = () => (
     <div>
-    <img src={require('../images/404.jpg')} width="1920" />
+    <img src={require('../images/404.jpg')} width="100%" />
     <ContactsGroup><Link to="/">Go back to the Homepage</Link></ContactsGroup>
     </div>
   )

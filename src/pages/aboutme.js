@@ -1,31 +1,16 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+import React from 'react';
+import aboutme from '../components/aboutme';
 
-const AboutmeGroup = styled.div`
-    background: White;
-    padding: 50px 0;
-    display: grid;
-    grid-gap: 20px;
-    text-align: center;
-    font-size: 40;
-`
-const Aboutme = styled.div`
-    padding: 0px 0;
-    display: grid;
-    grid-gap: 20px;
-`
-      
-
-
-const aboutme = () => (
-    <Aboutme>
-    <div>
-    <img src={require('../images/aboutme.jpg')} width="1920" CropImage="500" />
-
-    <AboutmeGroup><Link to="/">Go back to the Homepage</Link></AboutmeGroup>
+const Aboutme = () => {
+    <div className="Aboutme">
+        <h2>Full spector of services</h2>
+        <div className="AboutmeGroup">
+            <Aboutme
+                title="Business card"
+                text="DK"
+                image={require('../images/1.jpg')} />
+        </div>
     </div>
-    </Aboutme>
-  )
+}
 
 export default aboutme

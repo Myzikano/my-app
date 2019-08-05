@@ -1,0 +1,121 @@
+.Aboutme {
+    background: url('../images/4.jpg');
+    overflow: hidden;
+    height: 880px;
+    background-size: cover;
+    background-position: center;
+}
+
+.AboutmeGroup {
+    display: grid;
+    grid-gap: 40px;
+    justify-items: left;
+    margin-left: 770px;
+}
+
+.Aboutme .Image {
+    position: relative;
+    display: grid;
+    justify-self: left;
+    margin-left: -540px;
+    top: -500px;
+}
+
+.Aboutme h1 {
+    position: relative;
+    margin-left: -184px;
+    text-align: left;
+    color: white;
+    font-size: 48px;
+    line-height: 428px;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Aboutme h2 {
+    text-align: left;
+    position: relative;
+    top: -260px;
+    margin-top: 0px;
+    margin-left: -184px;
+    color: white;
+    font-size: 60px;
+    animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0;
+}
+
+.Aboutme h3 {
+    text-align: left;
+    position: relative;
+    top: -700px;
+    margin-top: 0px;
+    margin-left: -184px;
+    color: white;
+    font-size: 36px;
+    animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0;
+}
+
+.Aboutme h4 {
+    text-align: left;
+    position: relative;
+    top: -720px;
+    margin-top: 0px;
+    margin-left: -184px;
+    color: white;
+    font-size: 24px;
+    animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0;
+}
+
+@media (max-width: 650px) {
+    .Aboutme {
+        width: 550px;
+        height: 900px;
+        align-items: left;
+    }
+
+    .AboutmeGroup {
+        width: 100px; 
+        width: 650px;
+    }
+    
+    .Aboutme .Image {
+        margin-left: -700px;
+        width: 200px;
+        height: 200px;
+        align-items: center;
+    }
+
+    .Aboutme h1 {
+        top: 230px;
+        margin-left: -700px;
+        font-size: 24px;
+    }
+ 
+    .Aboutme h2 {
+        top: -20px;
+        margin-left: -700px;
+        font-size: 30px;
+     }
+
+    .Aboutme h3 {
+        width: 400px;
+        top: -300px;
+        margin-left: -700px;
+        font-size: 18px;
+        word-wrap: break-word;
+    }
+    
+    .Aboutme h4 {
+        width: 400px;
+        top: -300px;
+        margin-left: -700px;
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+ }
