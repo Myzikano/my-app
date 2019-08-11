@@ -27,7 +27,11 @@ const PortfolioGroup = styled.div`
 const portfolio = () => (
     <Portfolio>
     <div class={Portfolio}>
-    <img src={require('../images/portfolio/1.png')} width="100%"/>
+    <img src={require('../images/portfolio/18.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/16.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/15.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/17.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/14.png')} width="100%"/>
     <img src={require('../images/portfolio/2.jpg')} width="100%" />
     <img src={require('../images/portfolio/3.jpg')} width="100%" />
     <img src={require('../images/portfolio/4.jpg')} width="100%" />
