@@ -27,24 +27,17 @@ const PortfolioGroup = styled.div`
 const portfolio = () => (
     <Portfolio>
     <div class={Portfolio}>
-    <img src={require('../images/portfolio/18.jpg')} width="100%"/>
-    <img src={require('../images/portfolio/16.jpg')} width="100%"/>
-    <img src={require('../images/portfolio/15.jpg')} width="100%"/>
-    <img src={require('../images/portfolio/17.jpg')} width="100%"/>
-    <img src={require('../images/portfolio/14.png')} width="100%"/>
-    <img src={require('../images/portfolio/2.jpg')} width="100%" />
-    <img src={require('../images/portfolio/3.jpg')} width="100%" />
-    <img src={require('../images/portfolio/4.jpg')} width="100%" />
-    <img src={require('../images/portfolio/5.jpg')} width="100%" />
-    <img src={require('../images/portfolio/6.png')} width="100%" />
+    <img src={require('../images/portfolio/1.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/2.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/3.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/4.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/5.jpg')} width="100%"/>
+    <img src={require('../images/portfolio/6.jpg')} width="100%" />
     <img src={require('../images/portfolio/7.jpg')} width="100%" />
-    <img src={require('../images/portfolio/8.jpg')} width="100%" />
+    <img src={require('../images/portfolio/8.png')} width="100%" />
     <img src={require('../images/portfolio/9.jpg')} width="100%" />
     <img src={require('../images/portfolio/10.jpg')} width="100%" />
-    <img src={require('../images/portfolio/11.jpg')} width="100%" />
-    <img src={require('../images/portfolio/12.png')} width="100%" />
-    <img src={require('../images/portfolio/13.jpg')} width="100%" />
-    <img src={require('../images/portfolio/14.png')} width="100%" />
+    <img src={require('../images/portfolio/11.png')} width="100%" />
 
     <PortfolioGroup><Link to="/">Go back to the Homepage</Link></PortfolioGroup>
     </div>
