@@ -32,7 +32,7 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Dmitriy Kulikovvvvvvvv<br /> Web+UI Designer</h1>
+        <h1>Dmitriy Kulikov<br /> Web+UI Designer</h1>
         <p>Effectiveness+creativity<br />I'm create awesome design with world-class design.</p>
         <Link to="/portfolio/">Watch the portfolio</Link>
         <div className="Logos">
