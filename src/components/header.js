@@ -16,6 +16,7 @@ class Header extends React.Component {
     this.handleScroll)
   }
 
+
   handleScroll = (event) => {
     const scrollTop = window.pageYOffset
 
@@ -32,10 +33,10 @@ class Header extends React.Component {
       <div className={this.state.hasScrolled ? 
       'Header HeaderScrolled' : 'Header'}> 
         <div className="HeaderGroup">
-          <Link to="/"><img src={require('../images/logo1.svg')} width="30" /></Link>
+          <Link to="/"><img src={require('../images/logo1.svg')} width="223" height="46" /></Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/aboutme">About Me</Link>
-          <Link to="/contacts">Contacts</Link>
+          <Link to="/contacts">Contacts11</Link>
           <button><a href="mailto:myzikano@gmail.com">Hire Me</a></button>
         </div>
       </div>
